@@ -6,14 +6,13 @@ const Navbar = () => {
 
   const listItems = [
     { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
     { label: "Services", path: "/services" },
     { label: "Portfolio", path: "/portfolio" },
     { label: "Blog", path: "/blog" },
   ];
 
   return (
-    <nav className="fixed top-[20px] left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl">
+    <nav className="fixed top-[20px] right-0 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl">
       <div className="bg-black/60 backdrop-blur-md text-white shadow-lg rounded-full px-6 py-3 flex items-center justify-between">
 
         {/* Logo */}
